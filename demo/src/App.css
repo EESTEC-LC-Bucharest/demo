@@ -10,6 +10,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    filter: brightness(0) saturate(100%) invert(16%) sepia(52%) saturate(3901%) hue-rotate(342deg) brightness(135%) contrast(96%);
   }
 }
 
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e52a30;
 }
 
 @keyframes App-logo-spin {
